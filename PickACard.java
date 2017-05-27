@@ -14,6 +14,7 @@ public class PickACard {
 		// displayDeck(deck);
 
 		int chosen = (int)(Math.random()*deck.length);
+
 		Card picked = deck[chosen];
 
 		System.out.println("You picked a " +
@@ -54,6 +55,13 @@ public class PickACard {
 		for (Card c : deck)
 			System.out.println(c.value + "\t" + c);
 	}
+
+		/*
+		*	I do not entirely understand the Study Drill
+		*	so instead of confusing myself more
+		*	I chose to not do this.
+		*/
+
 }
 
 
